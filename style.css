@@ -40,6 +40,11 @@ article {
     flex: 1;
 }
 
+article img {
+    width: 25vw;
+    height: 25vh;
+}
+
 footer {
     display: flex;
 }
