@@ -17,9 +17,11 @@ My second landing page. It's a business webpage for jewelry company.
 * HTML5
 
 ## Screenshots
-![Webpage](./images/page1.png)
+![Webpage](./images/screen1.png)
+![Webpage](./images/screen2.png)
 
 ## Link to webpage
+https://agata10.github.io/Jewelry-landing-page/
 
 ## Setup
 
