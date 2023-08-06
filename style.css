@@ -10,7 +10,7 @@ body {
 h1 {
     font-size: 2.6rem;
     text-align: left;
-    padding-left: 20px;
+    padding-left: 2rem;
     margin-top: 2rem;
 }
 
@@ -18,7 +18,7 @@ h2 {
     font-size: 2rem;
     text-align: left;
     font-weight: 500;
-    padding-left: 23px;
+    padding-left: 1rem;
 }
 
 header > img {
@@ -30,6 +30,7 @@ header > img {
     margin-bottom: 1.5rem;
 }
 
+/** NAV **/
 nav ul {
     list-style: none;
     text-align: center;
@@ -46,6 +47,11 @@ nav li {
     padding: 0 4vh;
 }
 
+li a:hover {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
 section {
     display: flex;
     gap: 3vw;
@@ -58,6 +64,16 @@ article {
     box-shadow: 10px 10px 12px #9ca1aa;
 }
 
+article a:hover {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+article a:visited {
+    color: #cbd5e1;
+}
+
+/* First section*/
 .first-row {
     background-image: url("images/nguyen-linh-Xdom75gruLc-unsplash.jpg");
     background-color: #cccccc; 
@@ -82,9 +98,11 @@ p.small {
 
 .first-row > article p {
     line-height: 6px;
+    padding-left: 2rem;
 }
 
-.second-row article{
+/*Second section*/
+.second-row article {
     background-color: #4b5563;
 }
 
@@ -93,35 +111,20 @@ article img {
     margin-left: auto;
     margin-right: auto;
     width: 25vw;
-    height: 50vh;
+    height: 60vh;
 }
 
 article p,
 article a {
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 30px;
     font-size: 0.9rem;
     font-weight: 400;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 a {
     color: #111827;
     text-decoration: none;
-}
-
-article a:hover {
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
-li a:hover {
-    font-size: 2.5rem;
-    cursor: pointer;
-}
-
-article a:visited {
-    color: #cbd5e1;
 }
 
 .second-row article:hover {
